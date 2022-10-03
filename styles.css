@@ -1,0 +1,43 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    border-radius: 2px;
+}
+  
+body{
+    background-color: #c9f2fc;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: x-large;
+    font-style: italic;
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    flex-wrap: wrap;
+  
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    height: 80px;
+    width: 100px;
+    border-style:solid;
+    border-radius:50px;
+    border-color: cadetblue;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+span{
+    text-align: center;
+    color: rgb(32, 77, 78);
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+
